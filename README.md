@@ -12,11 +12,11 @@ Examen Final de Frontend III
 - [API](#api)
 - [Entrega](#entrega)
   - [Fecha de Entrega](#fecha-de-entrega)
-  - [Formato de Entrega](#formato-de-entrega)
+  - [Delivery Format](#Delivery Format)
 
-## Requisitos
+## Requirements
 
-Es indispensable clonar este proyecto en un repositorio privado, para poder trabajar de forma _individual_ o en _dupla_. No se aceptarán proyectos que se hayan realizado sin partir de este template. Para eso deberás crear un repositorio con el nombre "ctd-esp-fe3-final" en tu cuenta de Github y luego seguir los siguientes pasos en tu terminal
+It is essential to clone this project in a private repository, in order to be able to work _individually_ or in _dupla_. Projects that have been created without this template will not be accepted. For that you must create a repository with the name "ctd-esp-fe3-final" in your Github account and then follow the following steps in your terminal
 
 ```
 # clona el repositorio del final en tu computadora
@@ -83,7 +83,7 @@ La API a utilizar sera la siguiente:
 Y para cada dentista en especifico:
 `https://jsonplaceholder.typicode.com/users/:id`
 
-### Formato de Entrega
+### Delivery Format
 
 - No deberan cambiar los nombres ni ubicacion de las variables/componentes/context que vienen con el repo base
 
