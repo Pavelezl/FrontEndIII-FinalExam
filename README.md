@@ -1,94 +1,94 @@
-# FrontEndIII-FinalExamen
+# ctd-fe3-final
 
-Examen Final de Frontend III
+Frontend III Final Exam
 
 ## Indice
 
-- [Requisitos](#requisitos)
-  - [Condiciones mínimas de aprobación](#condiciones-mínimas-de-aprobación)
-  - [Aspectos que modifican la valoración final de la nota](#aspectos-que-modifican-la-valoración-final-de-la-nota)
-- [Funcionalidades](#funcionalidades)
-- [Desarrollo](#desarrollo)
+- [Requirements](#Requirements)
+  - [Minimum passing conditions](#condiciones-mínimas-de-aprobación)
+  - [Aspects that modify the final evaluation of the grade](#aspectos-que-modifican-la-valoración-final-de-la-nota)
+- [Functionalities](#funcionalidades)
+- [Development](#desarrollo)
 - [API](#api)
-- [Entrega](#entrega)
-  - [Fecha de Entrega](#fecha-de-entrega)
-  - [Delivery Format](#Delivery Format)
+- [Delivery](#entrega)
+  - [Delivery Date](#fecha-de-entrega)
+  - [Delivery Forma](#formato-de-entrega)
 
 ## Requirements
 
-It is essential to clone this project in a private repository, in order to be able to work _individually_ or in _dupla_. Projects that have been created without this template will not be accepted. For that you must create a repository with the name "ctd-esp-fe3-final" in your Github account and then follow the following steps in your terminal
+It is essential to clone this project in a private repository, in order to be able to work _individually_ or in _in pairs_. Projects that have been created without this template will not be accepted. For that you will have to create a repository with the name "ctd-esp-fe3-final" in your Github account and then follow these steps in your terminal
 
 ```
-# clona el repositorio del final en tu computadora
+# clone the final repository to your computer
 git clone https://github.com/Frontend-III/fe3-final
 
-# ingresa al directorio del final
+# enter the final's directory
 cd fe3-final
 
-# elimina los links al repositorio de DH
+# emove the links to the DH repository
 git remove remote origin
 
-# Agrega el link al repositorio de tu cuenta de github, reemplaza <tuusuario> por tu cuenta
+# add the link to the repository from your github account, replace <youruser> with your account
 git remote add origin https://github.com/<tuusuario>/fe3-final
 
-# Sube el template inicial a tu repositorio de github
+# Upload the initial template to your github repository
 git push -u origin main
 ```
 
-### Condiciones de aprobación
+### Approval conditions
 
-Las siguientes condiciones son requisitos mínimos necesarios para la aprobación del final:
+The following conditions are minimum requirements necessary for approval of the final:
 
-- **Cumplir con todas las funcionalidades obligatorias**
-- Solo se podrán utilizar las librerías que se detallan en este README. Ver [Dependencias](docs/desarrollo.md#dependencias)
-- No se considerará realizada cualquier funcionalidad que sea implementada utilizando una librería distinta a las permitidas.
-- Deberá ser desarrollada utilizando Javascript con React.js como libreria.
-- Se espera que la página de Contacto, contenga los flujos de validación necesarios (minimo 2 validaciones), para un correcto submit del formulario.
-- En los casos en que se requiera dar estilos a componentes, deberá realizarse teniendo en cuenta el theme del contexto global.
+- **Comply with all mandatory functionality**.
+- Only the libraries detailed in this README may be used. See [Dependencies](docs/development.md#dependencies).
+- Any functionality that is implemented using a library other than the allowed ones will not be considered done.
+- It must be developed using Javascript with React.js as the library.
+- The Contact page is expected to contain the necessary validation flows (minimum 2 validations) for a correct form submission.
+- In the cases in which it is required to give styles to components, it must be done taking into account the theme of the global context.
 
-### Aspectos que modifican la valoración final de la nota
+### Aspects that modify the final evaluation of the score
 
-Los siguientes aspectos son extras al requisito mínimo de aprobación que serán tenidos en cuenta para aumentar la nota final, siempre y cuando su implementación sea correcta:
+The following aspects are extras to the minimum passing requirement that will be taken into account to increase the final grade, as long as their implementation is correct
 
-**Validaciones**
+**Validations**.
 
-- Una validación para cada campor es suficiente, pueden ser "manuales" o con expreciones regulares. Lo importante es el correcto manejo de errores y submit.
+- One validation for each campor is enough, they can be "manual" or with regular expressions. The important thing is the correct handling of errors and submits.
 
-**Funcionalidad de destacados**
+**Featured functionality**
 
-- Se valorará funcionalidades extra a esta feature, como lo pueden ser el eliminar de destacadados, manejo de errores al intentar agregar repetidos y reseteo total de los destacados.
+- Extra functionalities to this feature will be valued, such as the deletion of highlights, error handling when trying to add repeats and total reset of the highlights.
 
 
-**Estilos**
+**Styling**
 
-- Se valorará el estilado de demas apartados de la App (por fuera del estilado obligatorio de las rutas en base al theme)
+- The styling of other sections of the App (outside the mandatory styling of the routes based on the theme) will be valued.
 
-**Buenas Prácticas**
+**Good Practices**
 
-- Se prestará especial atención al uso de buenas prácticas, mejoras de performance (implementando useMemo) y la reutilizacion de codigo
+- Special attention will be paid to the use of best practices, performance improvements (implementing useMemo) and code reuse.
 
-## Funcionalidades
+## Functionalities
 
-Ver [Funcionalidades](docs/funcionalidades.md).
+Ver [Functionalities](docs/funcionalidades.md).
 
 ## Desarrollo
 
-Ver [Desarrollo](docs/desarrollo.md).
+Ver [Development](docs/desarrollo.md).
 
 ## API
 
-La API a utilizar sera la siguiente:
+The API to use will be the following:
 `https://jsonplaceholder.typicode.com/users`
 
-Y para cada dentista en especifico:
+And for each specific dentist:
 `https://jsonplaceholder.typicode.com/users/:id`
 
 ### Delivery Format
 
-- No deberan cambiar los nombres ni ubicacion de las variables/componentes/context que vienen con el repo base
+- You should not change the names or locations of the variables/components/context that come with the base repo.
 
-Se aceptará la entrega mediante la submisión de la URL de su repositorio clonado
+Submission will be accepted by submitting the URL of your cloned repository.
 
-El link al Google Form para la submisión será enviado por el profesor a cargo de la comisión.
+The link to the Google Form for the submission will be sent by the teacher in charge of the commission.
 
-Mucha suerte y éxitos!
+Best of luck and success!
