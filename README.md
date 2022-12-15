@@ -12,7 +12,7 @@ Frontend III Final Exam
 - [API](#api)
 - [Delivery](#entrega)
   - [Delivery Date](#fecha-de-entrega)
-  - [Delivery Forma](#Delivery Format)
+  - [Delivery Forma](#Delivery-Format)
 
 ## Requirements
 
