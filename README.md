@@ -8,7 +8,7 @@ Frontend III Final Exam
   - [Minimum passing conditions](#condiciones-mínimas-de-aprobación)
   - [Aspects that modify the final evaluation of the grade](#Aspects-that-modify-the-final-evaluation-of-the-score)
 - [Functionalities](#Functionalities)
-- [Development](#desarrollo)
+- [Development](#Development)
 - [API](#api)
 - [Delivery](#entrega)
   - [Delivery Date](#fecha-de-entrega)
@@ -71,7 +71,7 @@ The following aspects are extras to the minimum passing requirement that will be
 
 Ver [Functionalities](docs/funcionalidades.md).
 
-## Desarrollo
+## Development
 
 Ver [Development](docs/desarrollo.md).
 
