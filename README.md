@@ -91,4 +91,4 @@ Submission will be accepted by submitting the URL of your cloned repository.
 
 The link to the Google Form for the submission will be sent by the teacher in charge of the commission.
 
-Best of luck and success!
+¡Best of luck and success!
