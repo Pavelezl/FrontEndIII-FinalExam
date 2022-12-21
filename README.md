@@ -1,6 +1,6 @@
 # ctd-fe3-final
 
-Frontend III Final Exam
+Frontend III Final Exam.
 
 ## Indice
 
